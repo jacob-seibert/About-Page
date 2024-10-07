@@ -86,9 +86,11 @@
 - Navigate to [Google Sheets](https://docs.google.com/spreadsheets)
     - Create a new blank sheet and rename it `Contact Form`
     - Set column headings as seen below:
+
 |   |   A  |   B   |    C    |
 |---|:----:|:-----:|:-------:|
 | 1 | Name | Email | Message |
+
 - Navigate to the [Form to Google Sheets Repository](https://github.com/jamiewilson/form-to-google-sheets)
 - Copy the code from the repositories step two
 - Navigate back to your google sheet and cick the Extensions -> Apps Script tab
