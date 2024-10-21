@@ -85,8 +85,25 @@
     - `git push origin main`<br>
 - To delete the header_edits branch enter the command below:
     - `git push origin --delete header_edits`<br>
+    - 
 
 ## 7. Editing your personal Index HTML About Section
+- Open the VS Code terminal and enter the command `git checkout -b about_sec`
+- Edit the p tag on line 51
+- To modify your skills edit the div where the **id="skills"**
+- To modify your experiences edit the div where the **id="experience"**
+- To modify you education edit the dive where the **id="education"**
+- In the terminal enter the following commands.
+    - `git add .`<br>
+    - `git commit -m "Edits made to the about section"`<br>
+    - `git push --set-upstream origin about_sec`<br>
+    - `git checkout main`<br>
+    - `git merge about_sec`<br>
+    - `git push origin main`<br>
+- To delete the header_edits branch enter the command below:
+    - `git push origin --delete about_sec` **deletes branch from online repository**
+    - `git branch -d about_sec` **deletes branch from local repository**
+
 
 ## 8. Editing your personal Index HTML Services Section
 
