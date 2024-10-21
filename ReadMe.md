@@ -112,7 +112,7 @@
 - To modify the third card in My Services edit lines 133-141
 - Once you are satisfied with your changes enter the following lines into your terminal
     - `git add .`<br>
-    - `git commit -m "services section"`<br>
+    - `git commit -m "Edits made to services section"`<br>
     - `git push --set-upstream origin services_sec`<br>
     - `git checkout main`<br>
     - `git merge services_sec`<br>
@@ -122,6 +122,26 @@
     - `git branch -d services_sec` **deletes branch from local repository**
 
 ## 9. Editing your personal Index HTML Portfolio Section
+### NOTE: This is where your post your projects
+- Open the VS Code terminal and enter the command `git checkout -b portfolio_sec`
+- This section currently has four cards but can be tailored to fit your need.
+    - **NOTE**: if you decide to include more I would suggest modifying this sections CSS properties
+- to modify the first card in the portfolio edit the first div with where **class="work"**
+- to modify the second card in the portfolio edit the second div with where **class="work"**
+- to modify the third card in the portfolio edit the third div with where **class="work"**
+- to modify the fourth card in the portfolio edit the fourth div with where **class="work"**
+- Modify the href attribute for the See More button so that it directs to your github
+- Once you are satisfied with your changes enter the following lines into your terminal
+    - `git add .`<br>
+    - `git commit -m "Edits made to portfolio section"`<br>
+    - `git push --set-upstream origin portfolio_sec`<br>
+    - `git checkout main`<br>
+    - `git merge portfolio_sec`<br>
+    - `git push origin main`<br>
+- To delete the about_sec branch enter the command below:
+    - `git push origin --delete portolfio_sec` **deletes branch from online repository**
+    - `git branch -d portfolio_sec` **deletes branch from local repository**
+
 
 ## 10. Editing your personal Index HTML Contact Section
 
