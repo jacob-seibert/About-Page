@@ -144,6 +144,24 @@
 
 
 ## 10. Editing your personal Index HTML Contact Section
+- Open the VS Code terminal and enter the command `git checkout -b contact_sec`
+- To change the email edit the first p tag in the div where **class="contact-left"**
+- To change the phone number edit the second p tag in the div where **class=contact-left"**
+- To change the social icons and there linds edit the div where **class="social-icons"**
+    - Tailor the social icons to reflect what you want to show/share.
+        - For example if you want to get into web devlopment you may want to share your work on codepen.
+- Replace the pdf resume in the resources folder with your own personal resume.
+- Modify the href attribute for the **Download CV** button to link to your resume.
+- Once you are satisfied with your changes enter the following lines into your terminal
+    - `git add .`<br>
+    - `git commit -m "Edits made to contact section"`<br>
+    - `git push --set-upstream origin contact_sec`<br>
+    - `git checkout main`<br>
+    - `git merge contact_sec`<br>
+    - `git push origin main`<br>
+- To delete the about_sec branch enter the command below:
+    - `git push origin --delete contact_sec` **deletes branch from online repository**
+    - `git branch -d contact_sec` **deletes branch from local repository**
 
 ## 11. Setting up your Google Sheet Script for Form
 - Navigate to [Google Sheets](https://docs.google.com/spreadsheets)
