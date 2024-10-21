@@ -164,6 +164,7 @@
     - `git branch -d contact_sec` **deletes branch from local repository**.
 
 ## 11. Setting up your Google Sheet Script for Form
+- Open the VS Code terminal and enter the command `git checkout -b form_submission`.
 - Navigate to [Google Sheets](https://docs.google.com/spreadsheets)
     - Create a new blank sheet and rename it `Contact Form`
     - Set column headings as seen below:
@@ -175,4 +176,28 @@
 - Navigate to the [Form to Google Sheets Repository](https://github.com/jamiewilson/form-to-google-sheets)
 - Copy the code from the repositories step two
 - Navigate back to your google sheet and cick the **Extensions -> Apps Script tab**
-- Delete the function and paste the code from online repository
+- Dobule click the name `Untitled Project` and rename it to Contact Form
+- Delete the function and paste the code copiedfrom online [Google Sheet](https://github.com/jamiewilson/form-to-google-sheets) repository
+- Click on the save icon
+- Once it has saved click **run**
+    - Click on review permissions
+    - Confirm your account
+    - Click on **advanced -> Go to contact form (unsafe)**
+    - Click allow
+- CLick **deploy -> New deployment**   
+    - Click on the **settings icon -> Web App**
+    - Add description
+    - In the Who has Access box select `Anyone`
+    - Then click **deploy**
+    - Copy and save the Web app URL and click Done
+- Replace the value of scriptURL in your index html script, with the webApp URL you copied from Google Sheets.
+- Once you are satisfied with your changes enter the following lines into your terminal:
+    - `git add .`.
+    - `git commit -m "Configured Google Sheet Contact Form Submission"`.
+    - `git push --set-upstream origin form_submission`.
+    - `git checkout main`.
+    - `git merge form_submission`.
+    - `git push origin main`.
+- To delete the about_sec branch enter the command below:
+    - `git push origin --delete form_submission` **deletes branch from online repository**.
+    - `git branch -d form_submission` **deletes branch from local repository**.
