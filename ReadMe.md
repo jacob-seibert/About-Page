@@ -90,9 +90,9 @@
 ## 7. Editing your personal Index HTML About Section
 - Open the VS Code terminal and enter the command `git checkout -b about_sec`.
 - Edit the p tag on line 51.
-- To modify your skills edit the div where the **id="skills"**.
-- To modify your experiences edit the div where the **id="experience"**.
-- To modify you education edit the dive where the **id="education"**.
+- To modify your skills edit the div where the `id="skills"`.
+- To modify your experiences edit the div where the `id="experience"`.
+- To modify you education edit the dive where the `id="education"`.
 - In the terminal enter the following commands.
     - `git add .`.
     - `git commit -m "Edits made to the about section"`.
@@ -126,10 +126,10 @@
 - Open the VS Code terminal and enter the command `git checkout -b portfolio_sec`.
 - This section currently has four cards but can be tailored to fit your need.
     - **NOTE**: if you decide to include more I would suggest modifying this sections CSS properties.
-- to modify the first card in the portfolio edit the first div with where **class="work"**.
-- to modify the second card in the portfolio edit the second div with where **class="work"**.
-- to modify the third card in the portfolio edit the third div with where **class="work"**.
-- to modify the fourth card in the portfolio edit the fourth div with where **class="work"**.
+- to modify the first card in the portfolio edit the first div with where `class="work"`.
+- to modify the second card in the portfolio edit the second div with where `class="work"`.
+- to modify the third card in the portfolio edit the third div with where `class="work"`.
+- to modify the fourth card in the portfolio edit the fourth div with where `class="work"`.
 - Modify the href attribute for the See More button so that it directs to your github.
 - Once you are satisfied with your changes enter the following lines into your terminal.
     - `git add .`.
@@ -145,13 +145,13 @@
 
 ## 10. Editing your personal Index HTML Contact Section
 - Open the VS Code terminal and enter the command `git checkout -b contact_sec`.
-- To change the email edit the first p tag in the div where **class="contact-left"**.
-- To change the phone number edit the second p tag in the div where **class=contact-left"**.
-- To change the social icons and there linds edit the div where **class="social-icons"**.
+- To change the email edit the first p tag in the div where `class="contact-left"`.
+- To change the phone number edit the second p tag in the div where `class=contact-left"`.
+- To change the social icons and there linds edit the div where `class="social-icons"`.
     - Tailor the social icons to reflect what you want to show/share.
         - For example if you want to get into web devlopment you may want to share your work on codepen.
 - Replace the pdf resume in the resources folder with your own personal resume.
-- Modify the href attribute for the **Download CV** button to link to your resume.
+- Modify the href attribute for the `Download CV` button to link to your resume.
 - Once you are satisfied with your changes enter the following lines into your terminal:
     - `git add .`.
     - `git commit -m "Edits made to contact section"`.
@@ -173,23 +173,23 @@
 |---|:----:|:-----:|:-------:|
 | 1 | Name | Email | Message |
 
-- Navigate to the [Form to Google Sheets Repository](https://github.com/jamiewilson/form-to-google-sheets)
-- Copy the code from the repositories step two
-- Navigate back to your google sheet and cick the **Extensions -> Apps Script tab**
-- Dobule click the name `Untitled Project` and rename it to Contact Form
-- Delete the function and paste the code copiedfrom online [Google Sheet](https://github.com/jamiewilson/form-to-google-sheets) repository
-- Click on the save icon
-- Once it has saved click **run**
-    - Click on review permissions
-    - Confirm your account
-    - Click on **advanced -> Go to contact form (unsafe)**
-    - Click allow
-- CLick **deploy -> New deployment**   
-    - Click on the **settings icon -> Web App**
-    - Add description
-    - In the Who has Access box select `Anyone`
-    - Then click **deploy**
-    - Copy and save the Web app URL and click Done
+- Navigate to the [Form to Google Sheets Repository](https://github.com/jamiewilson/form-to-google-sheets).
+- Copy the code from the repositories step two.
+- Navigate back to your google sheet and cick the **Extensions -> Apps Script tab**.
+- Dobule click the name `Untitled Project` and rename it to Contact Form.
+- Delete the function and paste the code copiedfrom online [Google Sheet](https://github.com/jamiewilson/form-to-google-sheets) repository.
+- Click on the save icon.
+- Once it has saved click **run**.
+    - Click on review permissions.
+    - Confirm your account.
+    - Click on **advanced -> Go to contact form (unsafe)**.
+    - Click allow.
+- CLick **deploy -> New deployment**   .
+    - Click on the **settings icon -> Web App**.
+    - Add description.
+    - In the Who has Access box select `Anyone`.
+    - Then click **deploy**.
+    - Copy and save the Web app URL and click Done.
 - Replace the value of scriptURL in your index html script, with the webApp URL you copied from Google Sheets.
 - Once you are satisfied with your changes enter the following lines into your terminal:
     - `git add .`.
