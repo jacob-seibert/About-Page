@@ -100,7 +100,7 @@
     - `git checkout main`<br>
     - `git merge about_sec`<br>
     - `git push origin main`<br>
-- To delete the header_edits branch enter the command below:
+- To delete the about_sec branch enter the command below:
     - `git push origin --delete about_sec` **deletes branch from online repository**
     - `git branch -d about_sec` **deletes branch from local repository**
 
