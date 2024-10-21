@@ -106,6 +106,20 @@
 
 
 ## 8. Editing your personal Index HTML Services Section
+- Open the VS Code terminal and enter the command `git checkout -b services_sec`
+- to modify the first card in My Services edit lines 115-123
+- to modify the second card in My Services edit liens 124-132
+- To modify the third card in My Services edit lines 133-141
+- Once you are satisfied with your changes enter the following lines into your terminal
+    - `git add .`<br>
+    - `git commit -m "services section"`<br>
+    - `git push --set-upstream origin services_sec`<br>
+    - `git checkout main`<br>
+    - `git merge services_sec`<br>
+    - `git push origin main`<br>
+- To delete the about_sec branch enter the command below:
+    - `git push origin --delete services_sec` **deletes branch from online repository**
+    - `git branch -d services_sec` **deletes branch from local repository**
 
 ## 9. Editing your personal Index HTML Portfolio Section
 
