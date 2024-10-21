@@ -78,11 +78,11 @@
 - Go to your style.css page and edit the background-images url in the #header section
 - In the terminal enter the following commands.
     - `git add .`<br>
-    -`git commit -m "Edits made to index Header"`<br>
-    -`git push --set-upstream origin header_edits`<br>
-    -`git checkout main`<br>
-    -`git merge header_edits`<br>
-    -`git push origin main`<br>
+    - `git commit -m "Edits made to index Header"`<br>
+    - `git push --set-upstream origin header_edits`<br>
+    - `git checkout main`<br>
+    - `git merge header_edits`<br>
+    - `git push origin main`<br>
 - To delete the header_edits branch enter the command below:
     - `git push origin --delete header_edits`<br>
 
