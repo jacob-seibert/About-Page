@@ -77,14 +77,14 @@
 - Edit the header-text div to fit you
 - Go to your style.css page and edit the background-images url in the #header section
 - In the terminal enter the following commands.
-    - `git add .`
-    -`git commit -m "Edits made to index Header"`
-    -`git push --set-upstream origin header_edits`
-    -`git checkout main`
-    -`git merge header_edits`
-    -`git push origin main`
+    - `git add .`<br>
+    -`git commit -m "Edits made to index Header"`<br>
+    -`git push --set-upstream origin header_edits`<br>
+    -`git checkout main`<br>
+    -`git merge header_edits`<br>
+    -`git push origin main`<br>
 - To delete the header_edits branch enter the command below:
-    - `git push origin --delete header_edits`
+    - `git push origin --delete header_edits`<br>
 
 ## 7. Editing your personal Index HTML About Section
 
